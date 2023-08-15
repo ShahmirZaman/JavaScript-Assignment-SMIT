@@ -82,13 +82,47 @@ document.write("<h2>Question5</h2>");
 document.write("<br>");
 
 let tableNumber = 4;
-document.write("Table of " + tableNumber);
+let multiplyNumber = 1;
+let val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
 document.write("<br>");
-for ( let i = 1; i <= 10; i++ ) {
-    document.write("4 x ",i," = ",i*4);
-    document.write("<br>");
-}
-document.write("<hr>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br>");
+++multiplyNumber;
+val1 = tableNumber*multiplyNumber;
+document.write(tableNumber," x ",multiplyNumber," = ",val1);
+document.write("<br><hr>");
+
 
 //Question6
 document.write("<h2>Question6</h2>");
