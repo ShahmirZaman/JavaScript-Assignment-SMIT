@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question4</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        img {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src='./Assets/image1.jpg' 
+        onmouseover="src='./Assets/image2.jpg';{alert('Second Image Appeared')}" 
+        onmousedown="src='./Assets/image1.jpg';{alert('First Image Appeared Again')}">
+    </div>
+</body>
+</html>
